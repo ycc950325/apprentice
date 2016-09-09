@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <title>拜师与门派—注册</title>
+    <style>
+        #box{border: 1px #d1d1d1 solid;
+            width:500px;
+            height:600px;
+            margin: 0px auto;
+            background-color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+<div>
+    <div class="panel-heading"><h2 style="color: #92acd2">注册</h2></div>
+    <div style="height:20px"></div>
+    <div class="row-6">
+        <div class="col-md-12 col-md-offset-0 ptl">
+            <div class="panel panel-default panel-page">
+    <form id="register-form" class="form-vertical" method="post">
+        <div class="form-group">
+            <label class="control-label required"for="register_nickname">账号</label>
+            <div class="control">
+                <input type="text" id="register_nickname"name="nickname"class="form-control" required="required"data-explain="中、英文均可，最长20个英文或10个汉字">
+                <p class="help-block">中、英文均可，最长20个英文或10个汉字</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label required"for="register_password">密码</label>
+            <div class="control">
+                <input type="password" id="register_password"name="password"class="form-control" required="required"data-explain="5-20位英文、数字、符号，区分大小写">
+                <p class="help-block">5-20位英文、数字、符号，区分大小写</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label required"for="register_confirmPassword">确认密码</label>
+            <div class="control">
+                <input type="password" id="register_confirmPassword" name="confirmPassword"class="form-control" required="required"data-explain="再输入一次密码">
+                <p class="help-block">再输入一次密码</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="controls">
+                <button type="submit" id="register-btn" data-submiting-text="正在提交" class="btn btn-primary btn-large btn-block">注册</button>
+            </div>
+        </div>
+    </form>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+</body>
+</html>

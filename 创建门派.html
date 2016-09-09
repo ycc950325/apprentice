@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--<link rel="stylesheet"href="css/bootstrap.css">-->
+    <title>创建门派</title>
+    <style>
+        #create{
+            background-color: #298b92;
+            height: 700px;
+            color:white;
+            /*position: absolute;*/
+            /*top:60px;*/
+        }
+        /*@media screen and (min-width: 760px) and (max-width:1024px){*/
+            /*#create{width:360px; }*/
+        /*}*/
+        #body{
+            height: 60px;
+            background-color: white;
+        }
+        textarea{height: 80px;width:80%;}
+    </style>
+</head>
+<body>
+<div id="create">
+    <div id="body"></div>
+    <h3>填写信息</h3>
+    <table>
+        <tr>
+            <td>上传门派logo</td>
+            <td><input type="file" id="exampleInputFile"></td>
+        </tr>
+        <tr style="height: 20px;"></tr>
+        <tr>
+            <td>门派名称:</td>
+            <td><input type="text"style="color:black;" > </td>
+        </tr>
+        <tr style="height: 20px;"></tr>
+        <tr>
+            <td>门派介绍:</td>
+            <td><textarea style="color:black;"></textarea></td>
+        </tr>
+        <tr style="height: 20px;"></tr>
+        <tr id="sure">
+            <td></td>
+            <td style="color: black"><input type="button"value="确定创建"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
